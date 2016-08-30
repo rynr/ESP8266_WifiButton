@@ -3,7 +3,7 @@ WifiButton
 
 This code is meant to be put into an
 [ESP8266](https://de.wikipedia.org/wiki/ESP8266). It should send a message to a
-central service that to do with the information.
+central service that can decide on what to do with the information.
 
 Sequence
 --------
