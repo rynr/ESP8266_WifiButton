@@ -26,9 +26,9 @@ void setup()
   digitalWrite(LED_BUILTIN, LOW);
   delay(10);
 #ifdef DEBUG
-Serial.println();
-Serial.print("Connecting to ");
-Serial.println(WIFI_SSID);
+  Serial.println();
+  Serial.print("Connecting to ");
+  Serial.println(WIFI_SSID);
 #endif
   WiFi.begin(WIFI_SSID, WIFI_PASS);
   while(WiFi.status() != WL_CONNECTED) {
